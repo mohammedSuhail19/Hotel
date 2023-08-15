@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'REM',  sans-serif;
+}
+#main-nav{
+    /* display: none; */
+    
+    background-color:  rgb(49, 47, 47);
+    color: white;
+   
+}
+#main-nav h1 {
+    width: 20px ;
+    height: 20px;
+    padding-left: 70px;
+    padding-top: 20px
+}
+#main-nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+}
+.nav-links {
+text-align: right;
+align-items: center;  
+font-size: x-large;
+padding-bottom: 25px;
+/* box-shadow: 0 0 25px 0 black;   */
+flex-wrap: wrap;
+
+}
+.nav-links a span:hover {
+color: darkorange;
+text-shadow: 10px 10px 10px darkorange;
+}
+
+.nav-links a span::selection {
+    color: darkorange;
+    }
+/* 
+a span {
+    color: darkorange;
+} */
+#hero {
+    background-image: url(../img/room2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+#hero button:hover {
+    color: rgb(43, 41, 39);
+}
+.main-hero{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+}
+.main-hero h1 {
+    margin-bottom: 15px;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.main-hero h1 span {
+    color: darkorange;
+} 
+.main-hero p{
+    margin-bottom: 40px;
+    color:white;
+}
+.main-hero button {
+    display: inline-block;
+    color: white;
+    background:  darkorange;
+    padding: 15px;
+    font-size: 1.5em;
+    border: none;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+
+}
+#history {
+    display: flex;
+}
+.history-img{
+    width: 50%;
+}
+.historyimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.second-section-flex {
+    width: 50%;
+    background-color: rgb(49, 47, 47);
+}
+.read-button:hover{
+    background-color:  darkorange;
+    transform: scale(1.3);
+}
+.second-section-flex h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: white;
+    font-size:  2em;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.second-section-flex p {
+    text-align: center;
+    padding: 20px 50px;
+    color: white;
+    line-height: 30px;
+}
+.hisroty-about{
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.read-button{
+    width: 100px;
+    height: 40px;
+    font-size: 1em;
+    padding: 5px;
+    background-color: white;
+    border: none;
+}
+#locations {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#locations h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.left-section {
+    flex:1;
+    padding: 70px;
+    background-color: snow;
+}
+.middle-section {
+    flex:1;
+    padding: 70px;
+    background-color:darkorange ;
+}
+.right-section {
+    flex:1;
+    padding: 70px;
+    background-color: snow;
+}
+#locations p {
+    text-align: center;
+    font-size: 1.2em;
+}
+#Footer{
+    text-transform: capitalize;
+    text-align: center;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(49, 47, 47);
+    flex-wrap: wrap;
+
+}
+#Footer p {
+    color: white;
+}
+/* ************************************************************** */
+#hero2 div{
+   margin-left:180px;
+   padding: 20px; 
+}
+#hero2 img {
+    float: right;
+    width: 25%;
+    height:25%;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+#hero2 span {
+    color:  darkorange;
+}
+#hero2 h3 {
+    text-transform: capitalize;
+    font-size: xxx-large;
+    padding-bottom: 10px;
+}
+#hero2 p{
+    padding: right 10px;
+    padding-top: 20px;
+    font-size: larger;
+}
+#guest {
+    background-image: url(../img/20.jpg);
+    background-size: cover;
+    margin-top: 80px;
+    height: 80vh;
+    flex-wrap: wrap;
+
+}
+#guest h4 {
+    color: white;
+    font-size: xx-large;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+#guest img {
+    float: left;
+    width: 15%;
+    height:15%;
+    border-radius: 50%;
+}
+#guest div {
+    /* padding: 10px 10px 100px 10px; */
+    padding: 5px 5px 20px 5px;
+    background-color:rgba(255, 140, 0, 0.683);
+    margin-left: 150px;
+    margin-right: 150px;
+    flex-wrap: wrap;
+}
+#guest p {
+    padding-top: 50px;
+    padding-left: 250px;
+    text-align: left;
+}
+/* ****************************************************** */
+#contact  {
+    margin-left: 100px ;
+    margin-top: 30px;
+}
+#contact h2 , p , label {
+    color: black;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.con{
+    padding-bottom: 15px;
+}
+.con h2 {
+    text-transform: capitalize;
+    font-size: xx-large;
+    padding-bottom:10px ;
+
+}
+.con span {
+    color: darkorange ;
+}
+.buttoncontact{
+    height:40px ;
+    width: 70px;
+     background-color:  rgb(49, 47, 47);
+     margin:10px 0px 10px 0px ;
+     color: white;
+    }
+#contact input{
+    width: 1000px;
+    padding: 15px ;
+    margin-top:15px ;
+    margin-bottom: 15px;
+}
+#contact label {
+padding-top: 10px;
+margin-bottom: 15px;
+}
+#contact textarea {
+    width: 1000px;
+    height: 300px;
+}
+#contact-icon {
+    display: flex;
+    background-color:rgb(49, 47, 47);
+    padding: 20px;
+    margin-top: 15px;
+}
+#contact-icon i{
+padding-bottom: 10px;
+font-size: 40px;
+}
+
+#contact-icon div{
+    width: 100%;
+    height:100% 
+    calc(100% /3);
+    text-align: center;
+    padding-top:20px;
+    color: white;
+}
+#contact-icon p{
+    padding-top: 10px;
+    color: white;
+}
+.buttoncontact:hover {
+   background-color: darkorange;
+   color: black;
+}
